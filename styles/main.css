@@ -1,0 +1,51 @@
+h1{ 
+    color: blue
+}
+
+
+.item{
+
+    display: inline-block;
+    width: 220px;
+    height: 320px;
+    background-color:#fcfcfc;
+    border: 1px solid #cccccc;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.item img{
+    width: 200px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item h5{
+    font-weight: bold;
+    color: rgb(16,47,207);
+}
+
+.item h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+
+.item h6, 
+item button{
+     display: inline-text;
+}
+
+.item button{
+    
+    float: right;
+}
+
+.search-container{
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
